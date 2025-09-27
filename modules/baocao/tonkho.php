@@ -22,6 +22,6 @@ $rows = run('SELECT MaSanPham, TenSanPham, SoLuong FROM SanPham ORDER BY TenSanP
   </table>
 </div>
 
-<?php include __DIR__ . '/../../partials/footer.php';
+
 
 

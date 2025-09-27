@@ -15,6 +15,7 @@ if ($by === 'month') {
   <div>
     <a class="btn btn-outline-secondary" href="<?php echo BASE_URL; ?>?m=baocao&by=day">Theo ngày</a>
     <a class="btn btn-outline-secondary" href="<?php echo BASE_URL; ?>?m=baocao&by=month">Theo tháng</a>
+    <a class="btn btn-primary" href="<?php echo BASE_URL; ?>modules/baocao/tonkho.php">Báo cáo tồn kho</a>
   </div>
 </div>
 
@@ -32,6 +33,5 @@ if ($by === 'month') {
 </table>
 </div>
 
-<?php include __DIR__ . '/../../partials/footer.php';
 
 

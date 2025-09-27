@@ -63,6 +63,6 @@ $pages = (int)ceil($total / $limit);
   </ul>
 </nav>
 
-<?php include __DIR__ . '/../../partials/footer.php';
+
 
 

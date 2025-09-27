@@ -61,6 +61,6 @@ $rows = run('SELECT h.*, k.TenKhachHang FROM HoaDon h LEFT JOIN KhachHang k ON k
 </table>
 </div>
 
-<?php include __DIR__ . '/../../partials/footer.php';
+
 
 
